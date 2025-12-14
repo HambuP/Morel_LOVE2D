@@ -43,3 +43,5 @@ O en Windows, arrastra la carpeta del proyecto sobre el ejecutable de LÖVE.
 - **ESC**: Salir del juego
 
 *Inspirado en "La invención de Morel" de Adolfo Bioy Casares (1940)*
+
+**⚠️ Este juego contiene unos bugs debido a los cambios de resolución y escala de pantalla**
