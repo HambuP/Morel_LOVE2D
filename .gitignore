@@ -1,0 +1,115 @@
+# ============================================
+# .gitignore para LA INVENCIÓN DE MOREL
+# Proyecto LÖVE2D (Lua game engine)
+# ============================================
+
+# -------------------- SISTEMA OPERATIVO --------------------
+# Windows
+Thumbs.db           # Miniaturas de imágenes de Windows
+desktop.ini         # Configuración de carpetas de Windows
+*.lnk               # Accesos directos de Windows
+
+# macOS
+.DS_Store           # Metadatos de carpetas en Mac
+.AppleDouble
+.LSOverride
+._*                 # Archivos de recursos de Mac
+
+# Linux
+*~                  # Archivos temporales de editores en Linux
+.directory          # Configuración de carpetas en KDE
+
+# -------------------- LUA / LÖVE --------------------
+# Archivos compilados de LÖVE
+*.love              # Paquetes distribuibles de LÖVE (se generan al hacer build)
+dist/               # Carpeta de distribución
+build/              # Carpeta de build
+release/            # Releases compilados
+
+# -------------------- DESARROLLO --------------------
+# Backups y temporales
+*.bak               # Archivos de respaldo
+*.backup
+*.tmp
+*.temp
+*.swp               # Archivos swap de vim
+*.swo
+*~
+
+# Logs
+*.log               # Archivos de log
+debug.log
+error.log
+
+# -------------------- EDITORES E IDEs --------------------
+# Visual Studio Code
+.vscode/            # Configuración de VSCode (settings, launch, etc.)
+*.code-workspace
+
+# JetBrains (IntelliJ, WebStorm, etc.)
+.idea/              # Configuración de JetBrains IDEs
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Notepad++
+*.bak
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# -------------------- ASSETS Y DESARROLLO --------------------
+# Screenshots de desarrollo (opcional - descomenta si tienes)
+# screenshots/
+# test_screenshots/
+
+# Assets sin usar o de prueba
+unused_assets/
+old_assets/
+test_assets/
+backup/
+old/
+
+# Archivos de desarrollo temporal
+test.lua
+debug.lua
+scratch.lua
+
+# -------------------- CONFIGURACIÓN LOCAL --------------------
+# Configuraciones personales que no deben compartirse
+config_local.lua
+settings_local.lua
+debug_config.lua
+
+# -------------------- DOCUMENTACIÓN DE DESARROLLO --------------------
+# Descomenta si NO quieres compartir tus notas de desarrollo
+# REFACTORIZACION.md
+# TODO.md
+# NOTES.md
+
+# -------------------- OTROS --------------------
+# Archivo especial de Windows
+nul
+
+# Archivos comprimidos temporales
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Node modules (si usas alguna herramienta Node para build)
+node_modules/
+
+# Python (si usas scripts de Python para herramientas)
+__pycache__/
+*.pyc
+*.pyo
+.Python
+venv/
+env/
